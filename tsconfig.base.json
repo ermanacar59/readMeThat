@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@doc2speech/shared": [
+        "packages/shared/src"
+      ],
+      "@doc2speech/document-core": [
+        "packages/document-core/src"
+      ],
+      "@doc2speech/lang-core": [
+        "packages/lang-core/src"
+      ],
+      "@doc2speech/summary-core": [
+        "packages/summary-core/src"
+      ],
+      "@doc2speech/translation-core": [
+        "packages/translation-core/src"
+      ],
+      "@doc2speech/tts-core": [
+        "packages/tts-core/src"
+      ],
+      "@doc2speech/tts-core/server": [
+        "packages/tts-core/src/server.ts"
+      ],
+      "@doc2speech/tts-core/browser": [
+        "packages/tts-core/src/browser.ts"
+      ]
+    }
+  }
+}
