@@ -8,8 +8,8 @@ dotenv.config({
   path: path.resolve(currentDir, "../../../.env")
 });
 
-const port = Number(process.env.API_PORT || 4123);
-const host = process.env.API_HOST || "127.0.0.1";
+const port = Number(process.env.PORT || process.env.API_PORT || 4123);
+const host = process.env.API_HOST || "0.0.0.0";
 
 const server = await buildServer();
 
