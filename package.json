@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.1.0",
   "description": "Local-first modular document-to-speech monorepo MVP",
+  "engines": {
+    "node": ">=20"
+  },
   "workspaces": [
     "apps/*",
     "packages/*"
