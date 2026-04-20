@@ -3,6 +3,6 @@ builder = "NIXPACKS"
 buildCommand = "npm install && npm run build"
 
 [deploy]
-startCommand = "npm run start -w @doc2speech/api"
+startCommand = "node apps/api/dist/index.js"
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 5
